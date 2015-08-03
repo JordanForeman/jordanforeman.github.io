@@ -1,0 +1,261 @@
+.post-date {
+  position: absolute;
+  left: -95px;
+  top: 15px;
+  display: block;
+  background: WHITE;
+  color: BLACK;
+  text-align: center;
+  width: 50px;
+}
+
+.post-date-anchor, .post-date-day, .post-date-month, .post-date-year {
+  display: block;
+}
+
+.post-date-anchor {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.post-date-anchor > svg {
+  max-width: 100%;
+  fill: BLACK;
+}
+.post-date-anchor:hover svg {
+  -webkit-animation: tiltAnchor .5s linear;
+}
+
+.post-date-day {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.post-date-month {
+  font-size: 1rem;
+}
+
+.post-date-year {
+  font-size: .75rem;
+}
+
+@keyframes tiltAnchor {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(80deg);
+  }
+  50% {
+    transform: rotate(-80deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media screen and (max-width: 910px) {
+  .post-date {
+    position: relative;
+    width: auto;
+    text-align: left;
+    left: 0;
+    top: 0;
+    margin: -30px 0;
+  }
+
+  .post-date-anchor {
+    display: none;
+  }
+
+  .post-date-day, .post-date-month, .post-date-year {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666;
+  }
+}
+article.post {
+  position: relative;
+}
+
+.portfolio-items {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio-items li {
+  min-width: 285px;
+}
+
+.portfolio-item {
+  position: relative;
+  display: block;
+  color: WHITE;
+  background: black;
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  margin: 7px auto;
+  border: 10px solid LIGHTGRAY;
+}
+.portfolio-item h3, .portfolio-item img {
+  position: absolute;
+}
+.portfolio-item img {
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.2s ease-in-out;
+}
+.portfolio-item h3 {
+  z-index: 1;
+  width: 100%;
+  display: none;
+  text-align: center;
+  color: WHITE;
+  font-size: 2em;
+  top: 40%;
+  transform: translateY(-50%);
+}
+.portfolio-item h3:before, .portfolio-item h3:after {
+  content: '';
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  height: 2px;
+  background: WHITE;
+}
+@media screen and (max-width: 420px) {
+  .portfolio-item h3 {
+    display: block;
+  }
+  .portfolio-item img {
+    opacity: 0.45;
+  }
+}
+.portfolio-item:hover {
+  border-color: #8fb6dc;
+}
+.portfolio-item:hover img {
+  opacity: 0.45;
+}
+.portfolio-item:hover h3 {
+  display: block;
+}
+
+.header--homepage {
+  background: black;
+  padding: 0 20px;
+  font-family: "proxima-nova";
+}
+.header--homepage img {
+  max-width: 100%;
+}
+.header--homepage h2 {
+  color: #eee;
+  margin-top: -5%;
+  font-size: 1.5em;
+}
+
+section {
+  margin: 20px;
+  margin-bottom: 50px;
+}
+section h2 {
+  padding: 10px 0;
+  border: 1px solid #eee;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+section, header.header--homepage {
+  min-height: 100vh;
+  clear: both;
+}
+section:after, header.header--homepage:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section h2, header.header--homepage h2 {
+  text-align: center;
+}
+
+header.header--homepage {
+  position: relative;
+}
+header.header--homepage .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#portfolio a.seeMore {
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  border: 2px solid #4183C4;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 10px auto;
+  transition: background .1s linear;
+}
+#portfolio a.seeMore:hover {
+  background: #4183C4;
+  color: WHITE;
+}
+#portfolio p {
+  clear: both;
+}
+
+#about {
+  clear: both;
+  margin-top: 75px;
+}
+#about:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#about p {
+  margin: 0;
+  float: left;
+}
+#about img {
+  transform: scale(0.75);
+  border-radius: 50%;
+}
+
+#blog .posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+#blog .posts article {
+  width: 33%;
+  margin: 20px 10px;
+  max-height: 400px;
+  min-width: 450px;
+  overflow-y: hidden;
+}
+@media screen and (max-width: 720px) {
+  #blog .posts article {
+    min-width: 80%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #blog .posts article {
+    min-width: 100%;
+  }
+}
+#blog .posts .read-more {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 15px #666;
+}
+
+/*# sourceMappingURL=homepage.css.map */

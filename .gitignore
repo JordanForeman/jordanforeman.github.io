@@ -6,5 +6,4 @@ _site
 Gemfile
 Gemfile.lock
 node_modules
-assets/build
 bower_components
