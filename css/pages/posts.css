@@ -3,7 +3,6 @@
   left: -95px;
   top: 15px;
   display: block;
-  font-family: ff-meta-web-pro, sans-serif;
   background: WHITE;
   color: BLACK;
   text-align: center;
@@ -43,15 +42,12 @@
   0% {
     transform: rotate(0deg);
   }
-
   25% {
     transform: rotate(80deg);
   }
-
   50% {
     transform: rotate(-80deg);
   }
-
   100% {
     transform: rotate(0deg);
   }
@@ -74,7 +70,7 @@
     display: inline-block;
     font-size: 1rem;
     font-weight: 500;
-    color: #666666;
+    color: #666;
   }
 }
 article.post {

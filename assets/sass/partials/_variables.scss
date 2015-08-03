@@ -1,0 +1,51 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+$lightBlue: lighten($blue, 20);
+$purple: #6441a5;
+$lightGray: #E4E4E4;
+$green: #26E226;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+$proxima: "proxima-nova";
+$proximaSoft: "proxima-nova-soft";
+
+// Sizes
+$topnav-height: 50px;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 420px) { // Haha
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (max-width: 720px) { // Haha
+    @content;
+  }
+}
+
+@mixin clearfix {
+    clear: both;
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
