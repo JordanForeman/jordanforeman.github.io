@@ -75,6 +75,21 @@
 }
 article.post {
   position: relative;
+  margin: 0 auto;
+  max-width: 640px;
+}
+article.post .pagetitle {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #eee;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+@media screen and (max-width: 420px) {
+  article.post {
+    max-width: 100%;
+    margin: 0 20px;
+  }
 }
 
 .portfolio-items {

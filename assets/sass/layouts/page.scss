@@ -1,0 +1,9 @@
+@import "../partials/variables";
+
+section.page {
+
+    @include pageheader;
+
+    margin: 0 20px;
+
+}

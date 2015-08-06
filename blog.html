@@ -1,16 +1,14 @@
 ---
 layout: page
-pagetype: feed
+pagetype: blog
+title: Jordan's Blog
 ---
 
-<section id="blog" class="blog--teaser">
-	<div class="container">
-		<h2>Jordan's Blog</h2>
 		<div class="posts">
 			{% for post in site.posts %}
 			<article class="post">
 
-				<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+				<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
 				<div class="entry">
 					{{ post.content | truncatewords:60}}
@@ -21,5 +19,3 @@ pagetype: feed
 			</article>
 			{% endfor %}
 		</div>
-	</div>
-</section>

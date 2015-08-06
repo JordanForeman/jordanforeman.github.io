@@ -2,6 +2,7 @@
 layout: post
 title: Introducing Hyde for iOS
 image: /images/HydeIcon.png
+published: false
 ---
 
 Recently, I walked through [Amit Bijlani](http://twitter.com/paradoxed)'s fantastic Treehouse course ["Build a Game with Sprite Kit"](http://teamtreehouse.com/library/build-a-game-with-sprite-kit), and it really inspired me to dig back into iOS development. I took a basic iOS course back in school right around the time iOS 5 came out. I remember it being a pretty difficult course, as I was just starting to grasp some of the basic principles of writing code.
@@ -12,7 +13,7 @@ Now with a few more years of experience under my belt, I think I'm really excite
 
 Recently (like yesterday) I converted my personal website to Jekyll. I wrote [a post about why this excites me]({{ site.url }}/jekyll/) yesterday to kick off my month of blog posts. I thought it'd be cool to have an app for my iPhone or iPad that I could use to edit my blog from wherever. It'd have to be able to push changes to Github via Git, as well as provide a decent markdown editor for posts. This being a bare-minimum.
 
-A few quick Google searches turned up nothing that really solved my particular use-case. I honestly expected at least *something* to show up! But alas, if it don't exist - build it! So along came my idea for a companion application for Jekyll - dubiously named Hyde. 
+A few quick Google searches turned up nothing that really solved my particular use-case. I honestly expected at least *something* to show up! But alas, if it don't exist - build it! So along came my idea for a companion application for Jekyll - dubiously named Hyde.
 
 ![Hyde for iOS](/images/HydeIcon.png)
 
@@ -21,11 +22,11 @@ A few quick Google searches turned up nothing that really solved my particular u
 Hyde is going to be:
 
 * A global iOS App (available on both iPad and iPhone) that...
-* Allows one to post directly to their Jekyll installation 
+* Allows one to post directly to their Jekyll installation
 * via Git (probably using [libgit2](https://github.com/libgit2/objective-git))
 * it'll support Markdown for editing, with the potential for other authoring langs in the future
 
-Thats it! Super simple, right? 
+Thats it! Super simple, right?
 
 ## When will Hyde be available?
 

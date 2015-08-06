@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,YAAa;EAIT,MAAM,EAAE,MAAM;;AC+Cd,uBAAW;EACP,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,cAAc;EACtB,iBAAiB,EAAE,WAAW;EAC9B,kBAAkB,EAAE,WAAW",
+"sources": ["../../../sass/layouts/page.scss","../../../sass/partials/_variables.scss"],
+"names": [],
+"file": "page.css"
+}

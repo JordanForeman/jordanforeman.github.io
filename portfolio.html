@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
 pagetype: portfolio
+title: Products I've Helped Build
 ---
 
 {% if site.portfolio %}
-<section id="portfolio" class="portfolio--teaser">
-	<div class="container">
-		<h2>Products I've Helped Build</h2>
 		<p>I've helped build a lot of cool stuff with a lot of even cooler people! If you're cool and are looking for a cool guy to build something cool with, <a href="mailto:thejordanforeman@gmail.com">get in touch</a>!</p>
 		<ul class="portfolio-items">
 			{% for item in site.portfolio %}
@@ -18,6 +16,4 @@ pagetype: portfolio
 			</li>
 			{% endfor %}
 		</ul>
-	</div>
-</section>
 {% endif %}

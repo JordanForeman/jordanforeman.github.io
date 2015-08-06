@@ -1,0 +1,12 @@
+section.page {
+  margin: 0 20px;
+}
+section.page .pagetitle {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #eee;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/*# sourceMappingURL=page.css.map */

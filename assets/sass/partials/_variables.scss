@@ -49,3 +49,13 @@ $topnav-height: 50px;
         clear: both;
     }
 }
+
+@mixin pageheader {
+    .pagetitle {
+        text-align: center;
+        padding: 10px 0;
+        border: 1px solid #eee;
+        border-left-color: transparent;
+        border-right-color: transparent;
+    }
+}

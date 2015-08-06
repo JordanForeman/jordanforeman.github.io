@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<section class="page">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/build/css/layouts/page.css" />
+
+<section id="{{ page.pagetype }}" class="page">
     <div class="container">
-
-      <h1>{{ page.title }}</h1>
-
-      <div class="entry">
+        <h1 class="pagetitle">{{ page.title }}</h1>
         {{ content }}
-      </div>
     </div>
 </section>

@@ -1,0 +1,12 @@
+@import "../partials/variables";
+@import "../partials/components/article";
+
+#blog {
+
+    .post {
+        padding-bottom: 35px;
+        margin-bottom: 45px;
+        border-bottom: 5px solid $lightGray;
+    }
+
+}

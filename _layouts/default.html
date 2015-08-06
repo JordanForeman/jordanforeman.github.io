@@ -13,21 +13,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="google-site-verification" content="cG10__PD8D-mzmrBM7VA-PhvrOm0ERKhW5oXSaXk29w" />
 
-		<!-- TypeKit -->
-		<script type="text/javascript" src="//use.typekit.net/dit3tno.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		{% include typekit.html %}
+		{% include components/headerAssets.html %}
 
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
-		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/build/css/core.css" />
-
-		{% if page.pagetype %}
-		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/build/css/pages/{{page.pagetype}}.css" />
-		{% endif %}
-
-		<!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 	</head>
 
 	<body data-pagetype="{{page.pagetype}}" class="{{page.pagetype}}">
@@ -55,13 +43,12 @@
 			<div class="container">
 				<footer class="footer">
 					{% include svg-icons.html %}
-
-					<a href="http://referrals.trhou.se/jordanforeman" target="_blank"><img src="http://wac.a8b5.edgecastcdn.net/80A8B5/static-assets/assets/content/referral-badge-green.png"/></a>
 				</footer>
 			</div>
 		</div>
 
 		{% include analytics.html %}
 		{% include components/footerjs.html %}
+		{% include attributions.html %}
 	</body>
 </html>

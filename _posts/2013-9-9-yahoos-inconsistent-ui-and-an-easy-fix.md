@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Yahoo!'s Inconsistent UI and an Easy Fix
+title: Design Critique - Yahoo's New Design Rollout
+published: false
 ---
 
 As I was bumbling around on the internet earlier, I came across a [Yahoo! Groups page](http://groups.yahoo.com/neo/groups/dtsearch/conversations/topics/887). My attention was immediately drawn to the two buttons at the top of the page:
