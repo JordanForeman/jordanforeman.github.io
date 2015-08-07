@@ -121,6 +121,7 @@ table {
 }
 .nav--banner a:hover:after {
   transform: scalex(1);
+  -webkit-transform: scalex(1);
 }
 .nav--banner a:after {
   background-color: white;
@@ -128,6 +129,7 @@ table {
   display: block;
   width: 100%;
   transform: scaleX(0);
+  -webkit-transform: scaleX(0);
   height: 3px;
   margin: 0 auto;
   transition: transform .1s linear;

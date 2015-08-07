@@ -27,6 +27,7 @@
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
   transition: opacity 0.2s ease-in-out;
 }
 .portfolio-item h3 {
@@ -38,6 +39,7 @@
   font-size: 2em;
   top: 40%;
   transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
 }
 .portfolio-item h3:before, .portfolio-item h3:after {
   content: '';
