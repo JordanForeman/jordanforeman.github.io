@@ -1,0 +1,19 @@
+---
+layout: post
+title: Web Performance and the Complex Chain of Responsibility
+published: false
+---
+
+If you're reading this, I'm going to assume you work (at least tangentially) on the web to some degree. Unless you've been hiding out under a rock for the past couple of weeks, you've likely heard at least rumblings coming from the dev community about the tragic state of web performance. The conversation has led to the damnation of everything from [frameworks](http://www.quirksmode.org/blog/archives/2015/05/tools_dont_solv.html), ["cruft"](http://developer.telerik.com/featured/the-webs-cruft-problem/), and even [modern browsers shipping new features](http://www.theverge.com/2015/7/20/9002721/the-mobile-web-sucks).
+
+## The Web is Slow
+
+To varying degrees, all of these concerns are valid. Our industry **has** developed an arguably [unhealthy obsession](http://html9responsiveboilerstrapjs.com/) with frameworks. Our pages do tend to have too many unnecessary components (or "cruft"). Technically speaking, browser vendors **are** having to do quite a bit more work these days to keep up with evolving specs. That last one is pretty damned specific though, and there's really not a lot we can do about it short of [halting evolution of the native web](http://www.quirksmode.org/blog/archives/2015/07/stop_pushing_th.html) - something I will opt not to advocate. 
+
+I'm not going to beat a dead horse when it comes to arguing against frameworks and tools. These tools exist for a reason. Use them when they make sense; don't use them when they'd be overkill. If you're not sure where a certain project falls, do some more reading and figure it out - **your mileage may vary**.
+
+Instead, I want to focus on "cruft". More specifally, I want to talk about ads.
+
+## Ads Suck
+
+Technical ad performance 
