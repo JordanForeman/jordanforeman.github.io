@@ -7,4 +7,4 @@ link: http://bhg.com/
 
 # Better Homes and Gardens
 
-Founded in 1922, Better Homes and Gardens (BHG) is the 4th best selling magazine in the US market. In 2015 we released a brand new design to the BHG digital presence. The new "Pops of Color" refresh
+Founded in 1922, Better Homes and Gardens (BHG) is the 4th best selling magazine in the US market. In 2015 we released a brand new design to the BHG digital presence. The new "Pops of Color" refresh was designed and released in tandem with a new design paradigm implemented in the publications print edition.
